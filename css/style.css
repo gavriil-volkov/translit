@@ -105,11 +105,12 @@ footer {
   text-overflow: ellipsis;
   overflow: hidden;
   padding-bottom: 25px;
+  white-space: nowrap;
 }
 
 #mainBlocks p:hover {
   /* padding-bottom: 30px; */
-  cursor: pointer;
+  cursor: default;
 }
 
 .tooltip .tooltiptext {
