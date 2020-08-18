@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  .flexic {
+    flex-direction: column;
+  }
+
+  #formWrap {
+    width: 90%;
+  }
+
+  .flexBlocks {
+    width: 90%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px){
+  .flexic {
+    flex-direction: row;
+  }
+  
+  #formWrap {
+    width: 40%;
+  }
+}

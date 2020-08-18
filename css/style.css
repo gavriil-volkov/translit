@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'Merriweather', serif;
+  outline: none;
+}
+
+main {
+  padding: 50px 25px;
+}
+
+h2 {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #c3c3c3;
+  line-height: 75px;
+}
+
+header {
+  height: 150px;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.flexic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#formWrap {
+  min-height: 100px;
+  min-width: 30%;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 25px 0;
+  background-color: #dedede;
+  border: 1px solid #c3c3c3;
+  border-radius: 5px;
+}
+
+#textInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input[type="text" i] {
+  margin-right: 10px;
+  border: 1px solid #c3c3c3;
+  border-radius: 5px;
+  height: 25px;
+  outline: none;
+  font-family: inherit;
+  padding: 5px 10px;
+}
+
+#inputButton {
+  height: 35px;
+  border: 1px solid #c3c3c3;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: inherit;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.flexBlocks {
+  flex-direction: column;
+  width: 49%;
+  text-align: center;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  background: #dedede;
+  border: 1px solid #c3c3c3;
+  border-radius: 5px;
+  margin: 25px;
+  padding-bottom: 30px;
+}
+
+footer {
+  height: 150px;
+  background-color: #000;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.divP {
+  width: 100%;
+}
+
+#mainBlocks p {
+  width: 50px;
+  margin: auto;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-bottom: 25px;
+}
+
+#mainBlocks p:hover {
+  /* padding-bottom: 30px; */
+  cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 3px 10px;
+  border-radius: 0 10px 10px 10px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 2px;
+  font-style: italic;
+  font-size: 0.7em;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
