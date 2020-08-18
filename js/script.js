@@ -36,7 +36,7 @@ function clickButton() {
 
   // console.log(transliterate(txt));
 
-  inputInfo.value = '';
+  // inputInfo.value = '';
 
   
 
