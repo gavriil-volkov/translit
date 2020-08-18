@@ -37,7 +37,23 @@ function clickButton() {
   // console.log(transliterate(txt));
 
   inputInfo.value = '';
+
+  
+
 }
+const checkLength = function(evt) {
+  if (text.value.length > 1) {
+    button.removeAttribute('disabled')
+  }
+  if (text.value.length == 0) {
+    button.setAttribute('disabled', 'disabled')
+  }
+}
+
+const phoneField = document.querySelector('input[name="text"]')
+const button = document.querySelector('button')
+phoneField.addEventListener('keyup', checkLength)
+
 
 const actionButton = document.getElementById('inputButton');
 actionButton.addEventListener('click', clickButton);
