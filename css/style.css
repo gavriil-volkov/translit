@@ -100,7 +100,7 @@ footer {
 }
 
 #mainBlocks p {
-  width: 50px;
+  width: 150px;
   margin: auto;
   text-overflow: ellipsis;
   overflow: hidden;
